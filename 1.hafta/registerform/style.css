@@ -1,0 +1,92 @@
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    font-family:  serif;
+  
+}
+
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: rgb(219, 219, 219);
+            
+        }
+
+        .register {
+            background-color: #fff;
+            box-shadow: 0px 3px 18px rgba(0, 0, 0, 0.24);
+            padding: 70px 30px 20px; 
+            border-radius: 10px;
+            text-align: center;
+            margin-left:auto; 
+            margin-right:auto;
+            width: 40%;
+        }
+        
+        .register__tittle {
+            color: #646464;
+         }
+        
+        .register__desc {
+            color: #bebebe;
+         }
+        
+        
+        .register__form input[type="text"],
+        .register__form input[type="email"],
+        .register__form input[type="password"] {
+            background-color: #EFEFEF ;
+            border: none;
+            border-radius: 25px;
+            color: #180118;
+            display: block;
+            font-size: 15px;
+            height: 35px;
+            margin: 10px 2px 10px 0px ;
+            padding-left: 14px;
+            width: 100%;
+            outline: none;   
+        }
+        .register__form button {
+            background-color:rgb(227, 85, 246) ;
+            box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
+            border: solid transparent;
+            border-radius: 25px;
+            color: #FFFFFF;
+            cursor: pointer;
+            font-weight: 700;
+            font-size: 14px;
+            height: 30px;
+            margin-bottom: 10px;
+            text-align: center;
+            width: 100%;
+            outline: none;
+        }   
+        .register__form button:hover {
+            background-color: rgb(223, 16, 238);
+            text-align: center;
+            width: 100%;
+            
+        }    
+        
+        .already {
+            color: hsl(300, 1%, 72%);
+        }
+
+        .already a {
+            color: rgb(69, 43, 184);
+            font-weight: 700;
+            width: 100% ;
+            
+            
+            
+        }
+        .already a:hover {
+            color: indigo;
+            
+        }
+        
+      
+        
+    
